@@ -16,7 +16,8 @@ uses: gradle/actions/setup-gradle@v4
   with:
     gradle-version: 9.2.0
 run: gradle build
+working-directory: flashfx-fabric-1.21.11/flashfx
 uses: actions/upload-artifact@v4
 with:
   name: flashfx-jar
-  path: build/libs/*.jar
+  path: flashfx-fabric-1.21.11/flashfx/build/libs/*.jar
