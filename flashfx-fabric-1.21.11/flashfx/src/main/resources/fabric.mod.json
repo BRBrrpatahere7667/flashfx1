@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "flashfx",
+  "version": "${version}",
+  "name": "FlashFX",
+  "description": "Client visuals and jump effects: shockwave rings, hit bursts, rainbow trails, fullbright and a rainbow HUD.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.flashfx.FlashFxClient"] },
+  "mixins": ["flashfx.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
